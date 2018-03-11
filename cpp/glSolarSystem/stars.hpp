@@ -21,7 +21,7 @@ protected:
   GLfloat alphaSelf, alpha;
 };
 
-class Planet : public star {
+class Planet : public Star {
 public:
   Planet(GLfloat radius, GLfloat distance, GLfloat speed, GLfloat selfSpeed, Star *parentStar, GLfloat rgbColor[3]);
   void drawPlanet();

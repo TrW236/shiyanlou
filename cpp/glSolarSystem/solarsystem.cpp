@@ -4,8 +4,8 @@
 #define TIMEPAST 1
 #define SELFROTATE 3
 
-enum STARS {Sun, Mercury, Venus, Earth, Moon,
-    Mars, Jupiter, Saturn, Uranus, Neptune};
+//enum STARS {Sun, Mercury, Venus, Earth, Moon,
+//    Mars, Jupiter, Saturn, Uranus, Neptune};
 
 void SolarSystem::onDisplay() {
     // TODO:

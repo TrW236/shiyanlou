@@ -1,4 +1,4 @@
-#include <stars.hpp>
+#include "stars.hpp"
 
 #define PI 3.1415926535
 
@@ -21,7 +21,7 @@ Planet::Planet(GLfloat radius, GLfloat distance, GLfloat speed,
 
   }
 
-  void Planet::drawPlanet{
+  void Planet::drawPlanet(){
 
   }
 
