@@ -36,13 +36,17 @@
 // 自转速度
 #define SELFROTATE 3
 
+#define REST 700
+#define REST_Z (REST)
+#define REST_Y (-REST)
+
 // 为了方便操作数组，定义一个设置多为数组的宏
 #define SET_VALUE_3(name, value0, value1, value2) \
   ((name)[0])=(value0), ((name)[1])=(value1), ((name)[2])=(value2)
 
 // 在上一节实验中我们定义了星球的枚举
-enum STARS {Sun, Mercury, Venus, Earth, Moon,
-    Mars, Jupiter, Saturn, Uranus, Neptune};
+//enum STARS {Sun, Mercury, Venus, Earth, Moon,
+//    Mars, Jupiter, Saturn, Uranus, Neptune};
 
 #define TIMEPAST 1
 #define SELFROTATE 3

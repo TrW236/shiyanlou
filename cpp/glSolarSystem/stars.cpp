@@ -1,4 +1,5 @@
 #include "stars.hpp"
+#include <cmath>
 
 #define PI 3.1415926535
 
@@ -55,7 +56,7 @@ Planet::Planet(GLfloat radius, GLfloat distance, GLfloat speed,
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
     glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
     glMaterialfv(GL_FRONT, GL_EMISSION, mat_emission);
-    glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
+    glMaterialfv(GL_FRONT, GL_SHININESS, &mat_shininess);
   }
 
 LightPlanet::LightPlanet(GLfloat radius, GLfloat distance, GLfloat speed,
